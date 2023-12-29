@@ -98,13 +98,13 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english 
 # Other
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "ziplinker.net")
-SHORTLINK_API = environ.get("SHORTLINK_API", "f6bca6c218ba619daf2f6f292106978bc2a5b185")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "tnshort.net")
+SHORTLINK_API = environ.get("SHORTLINK_API", "72b9d96ecf3ac2017ba2b9d3d4c2dafd1ac6c77b")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), False)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/ultroid_official")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/ultroid_official")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/RSK_How_to_Download/4")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/RSK_How_to_Download/4")
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 
 # stream features vars
