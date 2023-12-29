@@ -15,17 +15,17 @@ def is_valid_ip(ip):
     return re.match(ip_pattern, ip) is not None
 
 # Bot information
-API_ID = environ.get('API_ID', '15664908')
+API_ID = environ.get('API_ID', '26252520')
 if len(API_ID) == 0:
     print('Error - API_ID is missing, exiting now')
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '512205a6ee8ee45fea0834780cf03aa7')
+API_HASH = environ.get('API_HASH', 'f9fdd4c382fcc42935bfe2c7414a36c9')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '6701207431:AAF0cYJ7HSC7PItzqokvj3Wuk5DHkwhVnHQ')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5664134801:AAH4HvJbQDGazVL-0lqC075aZLUKLd0KEu4')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -35,7 +35,7 @@ PORT = int(environ.get('PORT', '80'))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '1425991438 6272184341')
+ADMINS = environ.get('ADMINS', '1324948846 6058686659')
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
