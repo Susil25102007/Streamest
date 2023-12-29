@@ -108,7 +108,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/RSK_How_to_Downlo
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 
 # stream features vars
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002135281050")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001914824256")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
