@@ -9,8 +9,8 @@ class script(object):
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
     MY_OWNER_TXT = """★ Name: DarkPixx
-★ Username: @UltroidxTeam
-★ ID: <code>6272184341</code>
+★ Username: @RSK_SUSIL
+★ ID: <code>6058686659</code>
 ★ Country: India 🇮🇳"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
