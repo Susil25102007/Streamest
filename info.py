@@ -114,7 +114,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://moviztube-sub-3763f90d0b39.herokuapp.com")
+URL = environ.get("URL", "https://kash-susil-b2c206eb80e4.herokuapp.com")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
