@@ -14,7 +14,7 @@ openai
 pyromod
 
  #---ytdl----# 
- ffmpeg
+ffmpeg
 youtube_search
 youtube-search-python==1.4.6
 yt-dlp
