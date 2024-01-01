@@ -162,10 +162,7 @@ async def start(client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f"stream#{file_id}")
-    ],[
-        InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ⚡️', url=UPDATES_LINK),
-        InlineKeyboardButton('💡 ꜱᴜᴘᴘᴏʀᴛ 💡', url=SUPPORT_LINK)
+        InlineKeyboardButton("🔺ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ🔺", callback_data=f"stream#{file_id}")
     ],[
         InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
     ]]
