@@ -24,3 +24,4 @@ ytthumb
 wget
 datetime
 asyncio
+asgiref
