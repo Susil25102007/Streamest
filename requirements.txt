@@ -19,4 +19,7 @@ youtube_search
 youtube-search-python==1.4.6
 yt-dlp
 youtube-dl
-requests 
+requests
+ytthumb
+wget
+datetime
