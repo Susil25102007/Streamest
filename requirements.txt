@@ -24,4 +24,3 @@ ytthumb
 wget
 datetime
 asyncio
-youtubesearchpython
