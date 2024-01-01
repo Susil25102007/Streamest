@@ -12,6 +12,7 @@ aiofiles
 telegraph
 openai
 pyromod
+speedtest-cli
 
  #---ytdl----# 
 ffmpeg
