@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ᴛʀᴜsᴛ ᴍᴇ ! ɪ ᴄᴀɴ'ᴛ ᴇᴠᴇɴ ɪᴍᴀɢɪɴᴇ ʜᴏᴡ sᴜᴘᴇʀ-ғᴀsᴛ ɪ ᴄᴀɴ ᴅʀɪᴠᴇ ʏᴏᴜʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄʜᴀɴɴᴇʟ \ɴ\ɴᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ғᴏʀ ʟᴏɴɢ ᴅʀɪᴠᴇ ʙᴀʙʏ...🤪</b>"""
+ᴛʀᴜsᴛ ᴍᴇ ! ɪ ᴄᴀɴ'ᴛ ᴇᴠᴇɴ ɪᴍᴀɢɪɴᴇ ʜᴏᴡ sᴜᴘᴇʀ-ғᴀsᴛ ɪ ᴄᴀɴ ᴅʀɪᴠᴇ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ᴄʜᴀɴɴᴇʟ \ɴ\ɴᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ғᴏʀ ʟᴏɴɢ ᴅʀɪᴠᴇ ʙᴀʙʏ...🤪</b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
