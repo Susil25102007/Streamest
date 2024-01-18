@@ -92,7 +92,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     FILE_CAPTION = """<i>{file_name}</i>
     
-<a href=https://t.me/RSK_MOVIEz>@ʀsᴋ ᴍᴏᴠɪᴇᴢ</a>
+<a href=https://t.me/RSK_MOVIEz>@RSK MOVIEz</a>
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
@@ -131,8 +131,7 @@ I can't find the <b>{}</b> in my database! 🥲
 /get_custom_settings - to get your group settings details
 /set_welcome - to set custom new joined users welcome message for group
 /set_tutorial - to set custom tutorial link in result page button
-/id - to check group or channel id
-/openai - Find solution to any question with ChatGPT</b>"""
+/id - to check group or channel id</b>"""
 
     SOURCE_TXT = """<b>sᴏʀʀʏ ᴛʜɪs ɪs ᴀ ᴘʀɪᴠᴀᴛᴇ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
 
