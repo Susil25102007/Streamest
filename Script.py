@@ -3,15 +3,15 @@ class script(object):
     
 ᴛʀᴜsᴛ ᴍᴇ ! ɪ ᴄᴀɴ'ᴛ ᴇᴠᴇɴ ɪᴍᴀɢɪɴᴇ ʜᴏᴡ sᴜᴘᴇʀ-ғᴀsᴛ ɪ ᴄᴀɴ ᴅʀɪᴠᴇ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ᴄʜᴀɴɴᴇʟ \n\nᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ғᴏʀ ʟᴏɴɢ ᴅʀɪᴠᴇ ʙᴀʙʏ...🤪</b>"""
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
-★ Database: <a href=https://www.mongodb.com>MongoDB</a>
-★ Language: <a href=https://www.python.org>Python</a>
-★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
+    MY_ABOUT_TXT = """★ sᴇʀᴠᴇʀ: <a href=https://www.heroku.com>Heroku</a>
+★ ᴅᴀᴛᴀʙᴀsᴇ: <a href=https://www.mongodb.com>MongoDB</a>
+★ ʟᴀɴɢᴜᴜᴀɢᴇ: <a href=https://www.python.org>Python</a>
+★ ʟɪʙʀᴀʀʏ: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: sᴜsɪʟ ᴋᴜᴍᴀʀ  👑
-★ Username: @RSK_SUSIL
-★ ID: <code>6058686659</code>
-★ Country: India 🇮🇳"""
+    MY_OWNER_TXT = """★ ɴᴀᴍᴇ: sᴜsɪʟ ᴋᴜᴍᴀʀ  👑
+★ ᴜsᴇʀɴᴀᴍᴇ: @RSK_SUSIL
+★ ɪᴅ: <code>6058686659</code>
+★ ᴄᴏᴜɴᴛʀʏ: India 🇮🇳"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
