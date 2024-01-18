@@ -136,3 +136,7 @@ I can't find the <b>{}</b> in my database! 🥲
     SOURCE_TXT = """<b>sᴏʀʀʏ ᴛʜɪs ɪs ᴀ ᴘʀɪᴠᴀᴛᴇ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
 
 ᴅᴇᴠʟᴏᴘᴇʀ - <a href=https://t.me/RSK_SUSIL>sᴜsɪʟ ᴋᴜᴍᴀʀ 👑</a>"""
+
+    SUPPORT_TXT = """<a href=https://t.me/RSK_MOVIEz>ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ</a>
+                     <a href=https://t.me/RSK_update>ʀsᴋ ᴜᴘᴅᴀᴛᴇs</a>
+                     <a href=https://t.me/RSK_Backup>ʀsᴋ ʙᴀᴄᴋᴜᴘ</a>"""
