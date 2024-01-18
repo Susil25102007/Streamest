@@ -4,17 +4,17 @@ then
 
   echo "Cloning main Repository"
 
-  git clone https://github.com/Susil25102007/Stream2.git /Stream2 
+  git clone https://github.com/Susil25102007/Kash-Susil.git /Kash-Susil
 
 else
 
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
 
-  git clone $UPSTREAM_REPO /Stream2 
+  git clone $UPSTREAM_REPO /Kash-Susil 
 
 fi
 
-cd /Stream2 
+cd /Kash-Susil
 
 pip3 install -U -r requirements.txt
 
