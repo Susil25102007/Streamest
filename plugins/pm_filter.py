@@ -466,7 +466,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
             InlineKeyboardButton('👨‍🚒 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ 💡', callback_data='SUPPORT_TXT')
+            InlineKeyboardButton('💡 sᴜᴘᴘᴏʀᴛ 💡', callback_data='susil')
         ],[
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='my_about'),
             InlineKeyboardButton('👤 ᴏᴡɴᴇʀ', callback_data='my_owner')
@@ -547,7 +547,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        
+
+   elif query.data == "susil":
+         buttons = [[
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
+         ]]  
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SUPPORT_TXT,
+            reply_markup=reply_markup
+        )
+
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('User Command', callback_data='user_command'),
