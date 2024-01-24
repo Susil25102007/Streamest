@@ -15,12 +15,12 @@ def is_valid_ip(ip):
     return re.match(ip_pattern, ip) is not None
 
 # Bot information
+SESSION = environ.get('SESSION', 'Media_search')
 API_ID = environ.get('API_ID', '26252520')
 if len(API_ID) == 0:
     print('Error - API_ID is missing, exiting now')
     exit()
 else:
-    SESSION = environ.get('SESSION', 'Media_search')
     API_ID = int(API_ID)
 API_HASH = environ.get('API_HASH', 'f9fdd4c382fcc42935bfe2c7414a36c9')
 if len(API_HASH) == 0:
