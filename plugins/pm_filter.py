@@ -15,6 +15,11 @@ from utils import get_size, is_subscribed, is_check_admin, get_wish, get_shortli
 from database.users_chats_db import db
 from database.ia_filterdb import Media, get_file_details, get_search_results,delete_files
 import logging
+#Try Karo
+import re, asyncio, os, sys
+import json
+import base64
+logger = logging.getLogger(__name__)
 
 BUTTONS = {}
 CAP = {}
