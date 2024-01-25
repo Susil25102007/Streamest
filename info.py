@@ -128,11 +128,11 @@ name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = str(getenv('APP_NAME'))
+    APP_NAME = str(environ.get('APP_NAME'))
 
 else:
     ON_HEROKU = False
-HAS_SSL=bool(getenv('HAS_SSL',False))
+HAS_SSL=bool(environ.get('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://moviesearchbotop-rushikeshnarule3329.koyeb.app/".format(FQDN)
 else:
