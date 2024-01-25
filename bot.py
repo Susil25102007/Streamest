@@ -46,6 +46,12 @@ import pytz
 from aiohttp import web
 from plugins import web_server
 
+import asyncio
+from pyrogram import idle
+from lazybot import LazyPrincessBot
+from util.keepalive import ping_server
+from lazybot.clients import initialize_clients
+
 
 class Bot(Client):
     def __init__(self):
