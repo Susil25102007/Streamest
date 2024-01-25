@@ -109,22 +109,31 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/RSK_How_to_Downlo
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 
 # Online Stream and Download
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001914824256")
-if len(BIN_CHANNEL) == 0:
-    print('Error - BIN_CHANNEL is missing, exiting now')
-    exit()
+NO_PORT = bool(environ.get('NO_PORT', False))
+APP_NAME = None
+if 'DYNO' in environ:
+    ON_HEROKU = True
+    APP_NAME = environ.get('APP_NAME')
 else:
-    BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://susil-kash-aa260f10529e.herokuapp.com")
-if len(URL) == 0:
-    print('Error - URL is missing, exiting now')
-    exit()
+    ON_HEROKU = False
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
+URL = "https://susil-kash-aa260f10529e.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://susil-kash-aa260f10529e.herokuapp.com/".format(FQDN, PORT)
+SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
+WORKERS = int(environ.get('WORKERS', '4'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
+MULTI_CLIENT = False
+name = str(environ.get('name', 'LazyPrincess'))
+PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+if 'DYNO' in environ:
+    ON_HEROKU = True
+    APP_NAME = str(getenv('APP_NAME'))
+
 else:
-    if URL.startswith(('https://', 'http://')):
-        if not URL.endswith("/"):
-            URL += '/'
-    elif is_valid_ip(URL):
-        URL = f'http://{URL}/'
-    else:
-        print('Error - URL is not valid, exiting now')
-        exit()
+    ON_HEROKU = False
+HAS_SSL=bool(getenv('HAS_SSL',False))
+if HAS_SSL:
+    URL = "https://raspy-eleen-jisshu11.koyeb.app/".format(FQDN)
+else:
+    URL = "https://raspy-eleen-jisshu11.koyeb.app/".format(FQDN)
