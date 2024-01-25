@@ -28,8 +28,8 @@ CAP = {}
 async def aks_downloader(bot, query):
     file_id = query.data.split('#', 1)[1]
     msg = await bot.send_cached_media(chat_id=BIN_CHANNEL, file_id=file_id)
-    lazy_stream = f"{URL}watch/{msg.id}"
-    lazy_download = f"{URL}lazy_download/{msg.id}"
+    lazy_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
+    lazy_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
     btn= [[
         InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ💻", url=lazy_stream),
         InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ🚀", url=lazy_download)
